@@ -75,6 +75,19 @@ Keep the following information available:
 
 # Exercise 2: Connect to MongoDB from Node.js
 
+## Configure Environment Variables
+
+Create a `.env` file in the project directory:
+
+```
+MONGODB_USER=root
+MONGODB_PASSWORD=ACYbviFxYNjL9jDywee0OP3G
+MONGODB_HOST=172.21.173.172
+MONGODB_PORT=27017
+MONGODB_DATABASE=transactionsDB
+MONGODB_AUTH_SOURCE=admin
+```
+
 ## 1. Create the Project Directory
 
 Open a new terminal and create the project directory:
